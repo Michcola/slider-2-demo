@@ -31,6 +31,8 @@ n += 1
 
 
 
+
+
 // 下面可以不看
 function getImage(n) {
     return $(`.images > img:nth-child(${x(n)})`)
