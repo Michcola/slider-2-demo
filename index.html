@@ -8,18 +8,32 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="window">
-        <div class="images">
-            <img src="./img/wallhaven-392096.jpg" alt="图片" width="400" height="300">
-            <img src="./img/wallhaven-492172.jpg" alt="图片" width="400" height="300">
-            <img src="./img/wallhaven-97803.jpg" alt="图片" width="400" height="300">
-            <img src="./img/wallhaven-97808.jpg" alt="图片" width="400" height="300">
-            <img src="./img/wallhaven-686187.jpg" alt="图片" width="400" height="300">
-        </div>
+    <div class="container">
+            <div class="window">
+                    <div id="slides" class="images">
+            
+                        <img src="./img/wallhaven-392096.jpg" alt="图片1" width="400" height="300">
+                        <img src="./img/wallhaven-492172.jpg" alt="图片2" width="400" height="300">
+                        <img src="./img/wallhaven-97803.jpg" alt="图片3" width="400" height="300">
+                        <img src="./img/wallhaven-97808.jpg" alt="图片4" width="400" height="300">
+                        <img src="./img/wallhaven-686187.jpg" alt="图片5" width="400" height="300">
+            
+                    </div>
+                </div>
+                <div id="controls" style="text-align:center;">
+                    <button id="previous">上一张</button>
+                    <button id="next">下一张</button>
+                </div>
+            
+                <div id="buttonWrapper" style="text-align:center;">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+            </div>
+            
     </div>
-
-
-    
 
     
     <script src="./jquery-1.11.3.min.js"></script>
